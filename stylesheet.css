@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(198, 228, 255);
+  background-color: rgb(233, 245, 255);
   height: 200vh;
   width:100%;
   overflow-x:hidden;
@@ -11,7 +11,7 @@ ul {
   list-style-type: none;
   margin-top: 0%;
   overflow-x: hidden;
-  background-color: #333333;
+  background-color: #12130F;
   width: 100%;
 }
 
@@ -21,14 +21,15 @@ ul li {
 
 ul li a {
   display: block;
-  color: rgb(198, 228, 255);
+  color: rgb(247, 243, 246);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: #313131;
+  font-style:italic
 }
 
 h1{
@@ -56,4 +57,47 @@ p{
 .nav{
   position: sticky;
   top:0px;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  color:rgb(250, 223, 127);
+}
+
+.cert{
+  padding-left:40px;
+  text-align: left;
+}
+
+p.cert{
+  padding:0px;
+  padding-left:40px;
+}
+
+h2.cert{
+  padding-top:40px;
+}
+
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
