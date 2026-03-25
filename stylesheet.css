@@ -101,3 +101,10 @@ h2.cert{
   font-variation-settings:
     "wdth" 100;
 }
+
+.home {
+  text-align: left;
+  letter-spacing: 0.02cm;
+  word-spacing: 0.1cm;
+  line-height: 1cm;
+}
