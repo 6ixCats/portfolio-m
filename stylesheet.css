@@ -13,6 +13,7 @@ ul {
   overflow-x: hidden;
   background-color: #12130F;
   width: 100%;
+  z-index: 0;
 }
 
 ul li {
@@ -25,11 +26,12 @@ ul li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  z-index: 0;
 }
 
 ul li a:hover {
   background-color: #313131;
-  font-style:italic
+  font-style:italic;
 }
 
 h1{
@@ -39,6 +41,7 @@ h1{
 
 img{
   display:block;
+  z-index: auto;
 }
 
 .banner-contain{
@@ -88,10 +91,10 @@ h2.cert{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 0.8em;
   font-variation-settings:
     "wdth" 100;
 }
-
 
 .merriweather {
   font-family: "Merriweather", serif;
@@ -103,8 +106,17 @@ h2.cert{
 }
 
 .home {
+  padding-left: 100px;
   text-align: left;
   letter-spacing: 0.02cm;
   word-spacing: 0.1cm;
   line-height: 1cm;
+  width:50%;
+}
+
+.portrait {
+  width:20%;
+  padding-top: 3em;
+  padding-left:70%;
+  position:absolute;
 }
