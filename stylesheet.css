@@ -13,11 +13,12 @@ ul {
   overflow-x: hidden;
   background-color: #12130F;
   width: 100%;
-  z-index: 0;
+  z-index: 6;
 }
 
 ul li {
   float: left;
+  z-index: 6;
 }
 
 ul li a {
@@ -26,7 +27,6 @@ ul li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  z-index: 0;
 }
 
 ul li a:hover {
@@ -41,7 +41,7 @@ h1{
 
 img{
   display:block;
-  z-index: auto;
+  z-index: -7;
 }
 
 .banner-contain{
@@ -119,4 +119,5 @@ h2.cert{
   padding-top: 3em;
   padding-left:70%;
   position:absolute;
+  z-index: -7;
 }
